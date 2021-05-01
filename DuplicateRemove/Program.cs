@@ -15,8 +15,8 @@ namespace DuplicateRemove
             if (args.Length == 0)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-
                 Console.WriteLine("Wrong parameter!");
+                Console.ForegroundColor = ConsoleColor.White;
                 return;
 
             }
@@ -123,8 +123,8 @@ namespace DuplicateRemove
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-
                 Console.WriteLine("Directory " + path + " not exist!");
+                Console.ForegroundColor = ConsoleColor.White;
 
             }
         }
